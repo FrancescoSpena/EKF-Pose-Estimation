@@ -32,7 +32,4 @@ cd EKF-Pose-Estimation && octave EKFLocalizationBearingOnly.m
 ```
 ## Results 
 
-The filter accurately estimates the robot's pose without any drift. The Extended Kalman Filter (EKF) incorporates error feedback by calculating the difference between predictions and measurements, which is then propagated to minimize the error through a feedback loop. Furthermore, we can extend the filter's structure to address SLAM (Simultaneous Localization and Mapping) tasks. You can find all the details in this [repo](https://github.com/FrancescoSpena/EKF-SLAM/tree/main).
-
-
-
+The filter accurately estimates the robot's pose without any drift. The Extended Kalman Filter (EKF) incorporates error feedback by calculating the difference between predictions and measurements, which is then propagated to minimize the error through a feedback loop. Furthermore, we can extend the filter's structure to address SLAM (Simultaneous Localization and Mapping) tasks. 
